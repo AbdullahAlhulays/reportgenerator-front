@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1200" viewBox="0 0 900 1200" role="img" aria-labelledby="title desc">
+  <title id="title">Field Inspection Service preview</title>
+  <desc id="desc">Document preview for the field inspection and service template.</desc>
+  <rect width="900" height="1200" fill="#eef2f7"/>
+  <rect x="84" y="48" width="732" height="1104" rx="14" fill="#fff" stroke="#cbd5e1" stroke-width="2"/>
+  <rect x="84" y="48" width="732" height="136" rx="14" fill="#1d4ed8"/>
+  <rect x="122" y="86" width="86" height="58" rx="10" fill="#dbeafe"/>
+  <text x="232" y="108" font-family="Inter, Arial, sans-serif" font-size="29" font-weight="800" fill="#fff">FIELD INSPECTION / SERVICE</text>
+  <text x="232" y="142" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="600" fill="#dbeafe">site conditions, tests, results, and corrective actions</text>
+
+  <g font-family="Inter, Arial, sans-serif">
+    <rect x="120" y="222" width="660" height="70" rx="10" fill="#f8fafc" stroke="#cbd5e1"/>
+    <text x="144" y="252" font-size="14" font-weight="800" fill="#64748b">REPORT NO.</text>
+    <text x="144" y="276" font-size="17" fill="#0f172a">{{ report_no }}</text>
+    <line x1="382" y1="232" x2="382" y2="282" stroke="#cbd5e1"/>
+    <text x="412" y="252" font-size="14" font-weight="800" fill="#64748b">DATE / TIME</text>
+    <text x="412" y="276" font-size="17" fill="#0f172a">{{ inspection_date }} / {{ inspection_time }}</text>
+
+    <rect x="120" y="330" width="660" height="38" rx="8" fill="#eff6ff"/>
+    <text x="144" y="355" font-size="18" font-weight="800" fill="#1d4ed8">1. INSPECTION INFORMATION</text>
+    <text x="144" y="406" font-size="15" font-weight="800" fill="#334155">Project / Site</text>
+    <text x="390" y="406" font-size="15" fill="#334155">{{ project_site }}</text>
+    <text x="144" y="450" font-size="15" font-weight="800" fill="#334155">Location</text>
+    <text x="390" y="450" font-size="15" fill="#334155">{{ location }}</text>
+    <text x="144" y="494" font-size="15" font-weight="800" fill="#334155">Inspector</text>
+    <text x="390" y="494" font-size="15" fill="#334155">{{ inspector_name }}</text>
+    <text x="144" y="538" font-size="15" font-weight="800" fill="#334155">Contractor / Crew</text>
+    <text x="390" y="538" font-size="15" fill="#334155">{{ contractor_crew }}</text>
+    <text x="144" y="582" font-size="15" font-weight="800" fill="#334155">Inspection Type</text>
+    <text x="390" y="582" font-size="15" fill="#334155">{{ inspection_type }}</text>
+    <text x="144" y="626" font-size="15" font-weight="800" fill="#334155">Weather</text>
+    <text x="390" y="626" font-size="15" fill="#334155">{{ weather }}</text>
+
+    <rect x="120" y="678" width="660" height="38" rx="8" fill="#ecfdf5"/>
+    <text x="144" y="703" font-size="18" font-weight="800" fill="#047857">2. SERVICE AREA AND RESULT</text>
+    <text x="144" y="754" font-size="15" font-weight="800" fill="#334155">Service Area</text>
+    <text x="390" y="754" font-size="15" fill="#334155">{{ service_area }}</text>
+    <text x="144" y="798" font-size="15" font-weight="800" fill="#334155">Reference Drawing / Spec</text>
+    <text x="390" y="798" font-size="15" fill="#334155">{{ reference_drawing_spec }}</text>
+    <text x="144" y="842" font-size="15" font-weight="800" fill="#334155">Inspection Result</text>
+    <text x="390" y="842" font-size="15" fill="#334155">{{ inspection_result }}</text>
+    <text x="144" y="886" font-size="15" font-weight="800" fill="#334155">Observed Condition</text>
+    <text x="390" y="886" font-size="15" fill="#334155">{{ observed_work_condition }}</text>
+
+    <rect x="120" y="938" width="660" height="38" rx="8" fill="#fef3c7"/>
+    <text x="144" y="963" font-size="18" font-weight="800" fill="#92400e">3. TEST AND DEFICIENCIES</text>
+    <text x="144" y="1014" font-size="15" font-weight="800" fill="#334155">Test Item / Value</text>
+    <text x="390" y="1014" font-size="15" fill="#334155">{{ test_item_1 }} / {{ test_value_1 }}</text>
+    <text x="144" y="1058" font-size="15" font-weight="800" fill="#334155">Criteria / Result</text>
+    <text x="390" y="1058" font-size="15" fill="#334155">{{ required_criteria_1 }} / {{ test_result_1 }}</text>
+    <text x="144" y="1102" font-size="15" font-weight="800" fill="#334155">Corrective Action</text>
+    <text x="390" y="1102" font-size="15" fill="#334155">{{ deficiencies_corrective_action }}</text>
+  </g>
+  <g stroke="#e2e8f0" stroke-width="2">
+    <line x1="120" y1="426" x2="780" y2="426"/>
+    <line x1="120" y1="470" x2="780" y2="470"/>
+    <line x1="120" y1="514" x2="780" y2="514"/>
+    <line x1="120" y1="558" x2="780" y2="558"/>
+    <line x1="120" y1="602" x2="780" y2="602"/>
+    <line x1="120" y1="774" x2="780" y2="774"/>
+    <line x1="120" y1="818" x2="780" y2="818"/>
+    <line x1="120" y1="862" x2="780" y2="862"/>
+    <line x1="120" y1="1034" x2="780" y2="1034"/>
+    <line x1="120" y1="1078" x2="780" y2="1078"/>
+  </g>
+</svg>

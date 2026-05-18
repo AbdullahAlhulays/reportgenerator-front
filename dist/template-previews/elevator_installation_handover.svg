@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1200" viewBox="0 0 900 1200" role="img" aria-labelledby="title desc">
+  <title id="title">Elevator Installation Handover preview</title>
+  <desc id="desc">Document preview for the elevator installation handover template.</desc>
+  <rect width="900" height="1200" fill="#edf2f7"/>
+  <rect x="84" y="48" width="732" height="1104" rx="14" fill="#fff" stroke="#cbd5e1" stroke-width="2"/>
+  <rect x="84" y="48" width="732" height="136" rx="14" fill="#0f172a"/>
+  <rect x="122" y="86" width="86" height="58" rx="10" fill="#e2e8f0"/>
+  <text x="232" y="108" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="800" fill="#fff">ELEVATOR INSTALLATION HANDOVER</text>
+  <text x="232" y="142" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="600" fill="#e2e8f0">stage completion, safety checks, comments, and decision</text>
+
+  <g font-family="Inter, Arial, sans-serif">
+    <rect x="120" y="222" width="660" height="70" rx="10" fill="#f8fafc" stroke="#cbd5e1"/>
+    <text x="144" y="252" font-size="14" font-weight="800" fill="#64748b">REPORT NO.</text>
+    <text x="144" y="276" font-size="17" fill="#0f172a">{{ report_no }}</text>
+    <line x1="382" y1="232" x2="382" y2="282" stroke="#cbd5e1"/>
+    <text x="412" y="252" font-size="14" font-weight="800" fill="#64748b">DATE / TIME</text>
+    <text x="412" y="276" font-size="17" fill="#0f172a">{{ report_date }} / {{ report_time }}</text>
+
+    <rect x="120" y="330" width="660" height="38" rx="8" fill="#f1f5f9"/>
+    <text x="144" y="355" font-size="18" font-weight="800" fill="#334155">1. PROJECT AND PEOPLE</text>
+    <text x="144" y="406" font-size="15" font-weight="800" fill="#334155">Project / Building</text>
+    <text x="390" y="406" font-size="15" fill="#334155">{{ project_building }}</text>
+    <text x="144" y="450" font-size="15" font-weight="800" fill="#334155">Elevator ID</text>
+    <text x="390" y="450" font-size="15" fill="#334155">{{ elevator_id }}</text>
+    <text x="144" y="494" font-size="15" font-weight="800" fill="#334155">Floor / Zone</text>
+    <text x="390" y="494" font-size="15" fill="#334155">{{ floor_zone }}</text>
+    <text x="144" y="538" font-size="15" font-weight="800" fill="#334155">Installer Crew</text>
+    <text x="390" y="538" font-size="15" fill="#334155">{{ installer_crew }}</text>
+    <text x="144" y="582" font-size="15" font-weight="800" fill="#334155">Client / Owner</text>
+    <text x="390" y="582" font-size="15" fill="#334155">{{ client_owner }}</text>
+    <text x="144" y="626" font-size="15" font-weight="800" fill="#334155">Supervisor</text>
+    <text x="390" y="626" font-size="15" fill="#334155">{{ supervisor_name }}</text>
+
+    <rect x="120" y="678" width="660" height="38" rx="8" fill="#ecfdf5"/>
+    <text x="144" y="703" font-size="18" font-weight="800" fill="#047857">2. INSTALLATION STATUS</text>
+    <text x="144" y="754" font-size="15" font-weight="800" fill="#334155">Work Stage</text>
+    <text x="390" y="754" font-size="15" fill="#334155">{{ work_stage }}</text>
+    <text x="144" y="798" font-size="15" font-weight="800" fill="#334155">Completion Status</text>
+    <text x="390" y="798" font-size="15" fill="#334155">{{ completion_status }}</text>
+    <text x="144" y="842" font-size="15" font-weight="800" fill="#334155">Completed Work Today</text>
+    <text x="390" y="842" font-size="15" fill="#334155">{{ completed_work_today }}</text>
+
+    <rect x="120" y="894" width="660" height="38" rx="8" fill="#eff6ff"/>
+    <text x="144" y="919" font-size="18" font-weight="800" fill="#1d4ed8">3. SYSTEM CHECKS</text>
+    <text x="144" y="970" font-size="15" font-weight="800" fill="#334155">Door Operation</text>
+    <text x="390" y="970" font-size="15" fill="#334155">{{ door_operation_status }}</text>
+    <text x="144" y="1014" font-size="15" font-weight="800" fill="#334155">Safety Devices</text>
+    <text x="390" y="1014" font-size="15" fill="#334155">{{ safety_devices_status }}</text>
+    <text x="144" y="1058" font-size="15" font-weight="800" fill="#334155">Movement / Leveling</text>
+    <text x="390" y="1058" font-size="15" fill="#334155">{{ movement_leveling_status }}</text>
+    <text x="144" y="1102" font-size="15" font-weight="800" fill="#334155">Handover Decision</text>
+    <text x="390" y="1102" font-size="15" fill="#334155">{{ final_handover_decision }}</text>
+  </g>
+  <g stroke="#e2e8f0" stroke-width="2">
+    <line x1="120" y1="426" x2="780" y2="426"/>
+    <line x1="120" y1="470" x2="780" y2="470"/>
+    <line x1="120" y1="514" x2="780" y2="514"/>
+    <line x1="120" y1="558" x2="780" y2="558"/>
+    <line x1="120" y1="602" x2="780" y2="602"/>
+    <line x1="120" y1="774" x2="780" y2="774"/>
+    <line x1="120" y1="818" x2="780" y2="818"/>
+    <line x1="120" y1="990" x2="780" y2="990"/>
+    <line x1="120" y1="1034" x2="780" y2="1034"/>
+    <line x1="120" y1="1078" x2="780" y2="1078"/>
+  </g>
+</svg>
